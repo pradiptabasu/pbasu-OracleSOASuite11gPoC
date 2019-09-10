@@ -32,3 +32,10 @@
 * 
 * 
 * 
+
+# SOA 11g REST JSON Kafka
+* https://technology.amis.nl/2009/12/15/the-oracle-soa-suite-11g-httpbinding-or-another-way-to-call-restful-services-from-soa-composite-applications/
+* http://sridhar-oraclefusion.blogspot.com/2014/08/calling-rest-service-methods-with-json.html
+* 
+* 
+
