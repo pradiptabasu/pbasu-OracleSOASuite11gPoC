@@ -42,3 +42,17 @@
 # XREF Lookup
 * https://rathinasaba.wordpress.com/tag/xref-lookup-function/
 
+select * from DEV_SOAINFRA.XREF_DATA
+WHERE XREF_COLUMN_NAME = 'NGCRM'
+AND VALUE = '<SIEBEL_ID>'
+
+select * from DEV_SOAINFRA.XREF_DATA
+WHERE XREF_COLUMN_NAME = 'Siebel' 
+AND VALUE = '<SIEBEL_ID>'
+
+select * from DEV_SOAINFRA.XREF_DATA
+WHERE XREF_COLUMN_NAME = 'COMMON'
+AND VALUE = (	select ROW_NUMBER from DEV_SOAINFRA.XREF_DATA
+				WHERE XREF_COLUMN_NAME = 'NGCRM'
+				AND VALUE = '<SIEBEL_ID>' )
+
