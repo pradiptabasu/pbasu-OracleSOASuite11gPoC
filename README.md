@@ -56,3 +56,29 @@ AND VALUE = (	select ROW_NUMBER from DEV_SOAINFRA.XREF_DATA
 				WHERE XREF_COLUMN_NAME = 'NGCRM'
 				AND VALUE = '<SIEBEL_ID>' )
 
+
+# using CDATA
+* https://jvzoggel.com/2011/02/17/using-cdata-in-the-oracle-service-bus/
+* OSB and CDATA Section Handling (Doc ID 1448669.1)
+* OSB CDATA Section is Being Stripped (Doc ID 2425704.1)
+* http://rohanlopes.blogspot.com/2011/10/passing-cdata-in-xquery-using-osb.html
+* http://jaredsoablogaz.blogspot.com/2013/04/using-cdata-to-handle-embedded-xml.html
+* https://archenroot.wordpress.com/2015/02/15/using-cdata-in-the-oracle-service-bus/
+* https://khassoablog.wordpress.com/2016/02/20/capture-the-result-in-cdata-format-in-osb/
+* http://markchensblog.blogspot.com/2012/06/use-cdata-to-pass-symbol-to-bpel-osb.html
+* https://soachamp.wordpress.com/2015/06/17/transformation-of-string-to-xml-or-xml-to-string-oracle-osb/
+* https://github.com/kamesh46/KameshOSBProject/tree/master/StringToXMLConversion
+* https://community.oracle.com/thread/1105672
+* SOA 11g: ORA:TOCDATA() Function Creates CDATA Syntax which is Stripped from the BPEL Payload (Doc ID 1501568.1)
+* https://cloudcustomerconnect.oracle.com/posts/a7f2d5a9e8?commentId=104291#104291
+* https://llorllale.github.io/embedding-cdata-section-in-your-bpel/
+* https://llorllale.blogspot.com/2013/03/embedding-cdata-section-in-your-bpel.html
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
